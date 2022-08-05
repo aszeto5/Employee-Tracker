@@ -191,7 +191,7 @@ function newDepartment (data) {
 };
 
 // View Roles
-viewAllRoles() = () => {
+viewAllRoles = () => {
     db.query("SELECT * FROM role", function (error, res) {
         console.table(res);
         endorMain();

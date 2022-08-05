@@ -8,4 +8,8 @@ const db = mysql.createConnection({
     database: 'employee_db'
 });
 
+app.listen(PORT, () => {
+    console.log(`App listening on port ${PORT}!`);
+});
+
 module.exports = db;
