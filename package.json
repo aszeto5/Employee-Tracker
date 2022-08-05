@@ -1,4 +1,22 @@
 {
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aszeto5/Employee-Tracker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aszeto5/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/aszeto5/Employee-Tracker/blob/main/README.md",
   "dependencies": {
     "console.table": "^0.10.0",
     "inquirer": "^9.0.2",
