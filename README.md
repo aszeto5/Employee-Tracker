@@ -5,5 +5,5 @@ A command line application that can manage a company's database using MySQL, inq
 
 ## Installation:
 * npm install --save mysql2
-* npm install --save inquirer
+* npm install --save inquirer@^8.0.0
 * npm install console.table --save
